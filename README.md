@@ -7,5 +7,8 @@ This chatbot is based around a Python API and web interface. A chatbot is a mach
 Second Commit:
 The chatbot must be programmed with theoretical omniscience. "Omniscience" is a characteristic of machine learning applications which pertain infinite knowledge(based on inputs). A Python Google Search library is installed on the local directory to initiate the project. The first file is google_search.py.
 
+Third Commit:
+Once a list of URLS are established a GET request of the web page applies the Python results library. The next file is get_url.py.
+
 
 
