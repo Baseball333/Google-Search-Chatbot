@@ -10,5 +10,7 @@ The chatbot must be programmed with theoretical omniscience. "Omniscience" is a 
 Third Commit:
 Once a list of URLS are established a GET request of the web page applies the Python results library. The next file is get_url.py.
 
+Fourth Commit:
+After get_url.py a file must be written to satisfy an HTTP server which is imported as a dependency. This file is called googlesearch.py.
 
 
