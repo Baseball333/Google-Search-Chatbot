@@ -17,3 +17,13 @@ def chatbot_query(query, index=0):
     
       soup = BeautifulSoup(page.content, features="lxml")
     
+      article_text = ""
+      article = soup.findAll("p")
+      for element in article:
+          article_text += "\n" + "".join(element.findAll(text=True))
+          first_sentence = article_text.split(".")
+          first_sentence = first_sentence[0].split("?")[0]
+            
+            
+            
+            
