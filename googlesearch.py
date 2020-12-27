@@ -24,6 +24,7 @@ def chatbot_query(query, index=0):
           first_sentence = article_text.split(".")
           first_sentence = first_sentence[0].split("?")[0]
             
-            
-            
+          chars_without_whitespace = first_sentence.translate(
+             { ord(c): None for c in string.whitespace }
+          )   
             
