@@ -27,4 +27,7 @@ def chatbot_query(query, index=0):
           chars_without_whitespace = first_sentence.translate(
              { ord(c): None for c in string.whitespace }
           )   
-            
+          if len(chars_without_whitespace) > 0:
+             result = first_sentence
+          else:
+            result = fallback
