@@ -15,3 +15,10 @@ After get_url.py a file must be written to satisfy an HTTP server which is impor
 
 Fifth Commit:
 With google_search.py a user can accept input and complete a Google search. After the HTML is parsed the first <p> will be sorted on the page. This procedure is the rudimentary algorithm.
+  
+Sixth Commit:
+The next phase of the project is to write an API for the chatbot's queries. The API will serve responses to the HTTP queries, whose file is server.py.
+  
+  
+  
+  
