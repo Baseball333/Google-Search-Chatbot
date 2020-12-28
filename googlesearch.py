@@ -31,3 +31,9 @@ def chatbot_query(query, index=0):
              result = first_sentence
           else:
             result = fallback
+
+          return result 
+            
+            
+            
+            
