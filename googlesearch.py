@@ -33,7 +33,7 @@ def chatbot_query(query, index=0):
             result = fallback
 
           return result 
-            
-            
+       except: 
+            if len(result) == 0: result = fallback
             
             
