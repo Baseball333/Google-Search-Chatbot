@@ -29,3 +29,10 @@ After server.py is written the curl Unix command is applied locally to test the 
 curl -d "How old jane doe" http://localhost:8080
 
 The web interface stack has been written, thus the ninth commit to the README will be the last.
+
+Ninth Commit:
+The final component of the project is the requirements.txt file which is installed locally on the parent directory of the chatbot. After requirements.txt is installed run the full-stack application with command
+
+python server.py
+
+This is the official end of the project.
