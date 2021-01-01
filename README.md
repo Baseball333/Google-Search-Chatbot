@@ -23,6 +23,9 @@ The next phase of the project is to write an API for the chatbot's queries. The 
 Seventh Commit:
 The API is stored on port 8080 and is stored in a folder called public in the project's parent directory. The GET requests are returned from the public folder's corresponding files. GET requests will also be returned to the HTML, CSS and JavaScript stack for the web interface. This will be stored in the server.py file.
   
+Eighth Commit:
+After server.py is written the curl Unix command is applied locally to test the API with POST requests.
   
-  
-  
+curl -d "How old jane doe" http://localhost:8080
+
+The web interface stack has been written, thus the ninth commit to the README will be the last.
